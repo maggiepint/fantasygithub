@@ -1,4 +1,4 @@
-# Leauges
+# Leagues
 * `Leagues` are made up of 7-10 teams, each with a ``manager``.
 * All `leagues` must have a ``comissioner``. The ``commissioner`` sets the rule options for the league,
 and is responsible for facilitating day-to-day activity of the league, and its draft.
