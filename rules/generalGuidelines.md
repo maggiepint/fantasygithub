@@ -7,7 +7,8 @@ and is responsible for facilitating day-to-day activity of the league, and its d
 * `Leagues` may choose to do auction drafts as well, but this is not part of our initial software POC
 
 # Season
-* `Comissioners` may define a fantasy `season` of 1 week, 4 weeks, or 12 weeks
+* `Comissioners` may define a fantasy `season` of 1 week, 4 weeks, 12 weeks, etc.
+* `Comissioners` may define a fantasy head-to-head `playoffs`.
 
 # Format
-* `Leagues` may play in head-to-head or points format
+* `Leagues` may play in weekly head-to-head or points format
