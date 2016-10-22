@@ -11,3 +11,8 @@ and is responsible for facilitating day-to-day activity of the league, and its d
 
 # Format
 * `Leagues` may play in head-to-head or points format
+
+# Teams
+
+* `Managers` draft entire open source `Projects` instead of individuals. This keeps the focus positive, provides the potential for more action every day (it would be boring to see a day pass without any new stats), and helps to promote open source projects.
+
