@@ -1,0 +1,14 @@
+html
+  body
+    h1
+      | Your stats from #{startDate} to #{endDate}
+    table
+      tr
+        th
+          |Repository
+        th
+          |Commits
+      each repo in repos
+        tr
+          td=repo.repo
+          td=repo.commits

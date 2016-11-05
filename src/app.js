@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-var GitHubApi = require("github");
+const GitHubApi = require("github");
+const aggregator = require('./statisticAggregator.js');
 
 const app = express();
 
@@ -16,8 +17,17 @@ app.get('/', function (req, res) {
 });
 
 app.post('/', function (req, res) {
-  var repos = req.body.repo;
-  var token = req.body.token;
+  var requestDto = {
+      repos: req.body.repo,
+      token: req.body.token,
+      startDate: req.body.startDate,
+      endDate: req.body.endDate
+  };
+  const agg= new aggregator(req.body.token, req.body.repo, req.body.startDate, req.body.endDate);
+  agg.getAllCommits().then(() => {
+      res.render('summary', { repos: agg.repos, startDate: req.body.startDate, endDate: req.body.endDate });
+  })
+
 });
 
 app.listen(3000, function () {
