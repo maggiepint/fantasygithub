@@ -28,7 +28,7 @@ function repository(gitHub, repo) {
   this.repo = repo.split('/')[1];
 }
 
-repository.prototype.getCommits(startDate, endDate) {
+repository.prototype.getCommits = function (startDate, endDate) {
   return github.repo.getCommits({ owner: this.owner, repo: this.repo, since: startDate, until: endDate });
 }
 
