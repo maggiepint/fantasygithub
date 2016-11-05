@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "4749831542",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 8,
+      "pull_request": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/8",
+        "id": 90466631,
+        "html_url": "https://github.com/maggiepint/fantasygithub/pull/8",
+        "diff_url": "https://github.com/maggiepint/fantasygithub/pull/8.diff",
+        "patch_url": "https://github.com/maggiepint/fantasygithub/pull/8.patch",
+        "issue_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/8",
+        "number": 8,
+        "state": "open",
+        "locked": false,
+        "title": "Summary and social goals.",
+        "user": {
+          "login": "topfunky",
+          "id": 26,
+          "avatar_url": "https://avatars.githubusercontent.com/u/26?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/topfunky",
+          "html_url": "https://github.com/topfunky",
+          "followers_url": "https://api.github.com/users/topfunky/followers",
+          "following_url": "https://api.github.com/users/topfunky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/topfunky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/topfunky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/topfunky/subscriptions",
+          "organizations_url": "https://api.github.com/users/topfunky/orgs",
+          "repos_url": "https://api.github.com/users/topfunky/repos",
+          "events_url": "https://api.github.com/users/topfunky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/topfunky/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "This adds a general summary of the project and a list of social goals in order to keep the project positive.",
+        "created_at": "2016-10-22T02:08:09Z",
+        "updated_at": "2016-10-22T02:08:09Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/8/commits",
+        "review_comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/8/comments",
+        "review_comment_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/8/comments",
+        "statuses_url": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/cb4b8607ca7eeee8b90135691a01b7dd123f1bef",
+        "head": {
+          "label": "maggiepint:rules/charter",
+          "ref": "rules/charter",
+          "sha": "cb4b8607ca7eeee8b90135691a01b7dd123f1bef",
+          "user": {
+            "login": "maggiepint",
+            "id": 6054610,
+            "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/maggiepint",
+            "html_url": "https://github.com/maggiepint",
+            "followers_url": "https://api.github.com/users/maggiepint/followers",
+            "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+            "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+            "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+            "repos_url": "https://api.github.com/users/maggiepint/repos",
+            "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 71367459,
+            "name": "fantasygithub",
+            "full_name": "maggiepint/fantasygithub",
+            "owner": {
+              "login": "maggiepint",
+              "id": 6054610,
+              "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/maggiepint",
+              "html_url": "https://github.com/maggiepint",
+              "followers_url": "https://api.github.com/users/maggiepint/followers",
+              "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+              "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+              "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+              "repos_url": "https://api.github.com/users/maggiepint/repos",
+              "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/maggiepint/fantasygithub",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/maggiepint/fantasygithub",
+            "forks_url": "https://api.github.com/repos/maggiepint/fantasygithub/forks",
+            "keys_url": "https://api.github.com/repos/maggiepint/fantasygithub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/maggiepint/fantasygithub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/maggiepint/fantasygithub/teams",
+            "hooks_url": "https://api.github.com/repos/maggiepint/fantasygithub/hooks",
+            "issue_events_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/maggiepint/fantasygithub/events",
+            "assignees_url": "https://api.github.com/repos/maggiepint/fantasygithub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/maggiepint/fantasygithub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/tags",
+            "blobs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/maggiepint/fantasygithub/languages",
+            "stargazers_url": "https://api.github.com/repos/maggiepint/fantasygithub/stargazers",
+            "contributors_url": "https://api.github.com/repos/maggiepint/fantasygithub/contributors",
+            "subscribers_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscribers",
+            "subscription_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscription",
+            "commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/maggiepint/fantasygithub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/maggiepint/fantasygithub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/maggiepint/fantasygithub/merges",
+            "archive_url": "https://api.github.com/repos/maggiepint/fantasygithub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/maggiepint/fantasygithub/downloads",
+            "issues_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/maggiepint/fantasygithub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/maggiepint/fantasygithub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/maggiepint/fantasygithub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/maggiepint/fantasygithub/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/maggiepint/fantasygithub/deployments",
+            "created_at": "2016-10-19T14:46:05Z",
+            "updated_at": "2016-10-19T23:18:42Z",
+            "pushed_at": "2016-10-22T02:08:09Z",
+            "git_url": "git://github.com/maggiepint/fantasygithub.git",
+            "ssh_url": "git@github.com:maggiepint/fantasygithub.git",
+            "clone_url": "https://github.com/maggiepint/fantasygithub.git",
+            "svn_url": "https://github.com/maggiepint/fantasygithub",
+            "homepage": null,
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 7,
+            "forks": 1,
+            "open_issues": 7,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "maggiepint:master",
+          "ref": "master",
+          "sha": "f39e2995dc09c17248ae7270f59d87afa05cd707",
+          "user": {
+            "login": "maggiepint",
+            "id": 6054610,
+            "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/maggiepint",
+            "html_url": "https://github.com/maggiepint",
+            "followers_url": "https://api.github.com/users/maggiepint/followers",
+            "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+            "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+            "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+            "repos_url": "https://api.github.com/users/maggiepint/repos",
+            "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 71367459,
+            "name": "fantasygithub",
+            "full_name": "maggiepint/fantasygithub",
+            "owner": {
+              "login": "maggiepint",
+              "id": 6054610,
+              "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/maggiepint",
+              "html_url": "https://github.com/maggiepint",
+              "followers_url": "https://api.github.com/users/maggiepint/followers",
+              "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+              "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+              "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+              "repos_url": "https://api.github.com/users/maggiepint/repos",
+              "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/maggiepint/fantasygithub",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/maggiepint/fantasygithub",
+            "forks_url": "https://api.github.com/repos/maggiepint/fantasygithub/forks",
+            "keys_url": "https://api.github.com/repos/maggiepint/fantasygithub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/maggiepint/fantasygithub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/maggiepint/fantasygithub/teams",
+            "hooks_url": "https://api.github.com/repos/maggiepint/fantasygithub/hooks",
+            "issue_events_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/maggiepint/fantasygithub/events",
+            "assignees_url": "https://api.github.com/repos/maggiepint/fantasygithub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/maggiepint/fantasygithub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/tags",
+            "blobs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/maggiepint/fantasygithub/languages",
+            "stargazers_url": "https://api.github.com/repos/maggiepint/fantasygithub/stargazers",
+            "contributors_url": "https://api.github.com/repos/maggiepint/fantasygithub/contributors",
+            "subscribers_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscribers",
+            "subscription_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscription",
+            "commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/maggiepint/fantasygithub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/maggiepint/fantasygithub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/maggiepint/fantasygithub/merges",
+            "archive_url": "https://api.github.com/repos/maggiepint/fantasygithub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/maggiepint/fantasygithub/downloads",
+            "issues_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/maggiepint/fantasygithub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/maggiepint/fantasygithub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/maggiepint/fantasygithub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/maggiepint/fantasygithub/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/maggiepint/fantasygithub/deployments",
+            "created_at": "2016-10-19T14:46:05Z",
+            "updated_at": "2016-10-19T23:18:42Z",
+            "pushed_at": "2016-10-22T02:08:09Z",
+            "git_url": "git://github.com/maggiepint/fantasygithub.git",
+            "ssh_url": "git@github.com:maggiepint/fantasygithub.git",
+            "clone_url": "https://github.com/maggiepint/fantasygithub.git",
+            "svn_url": "https://github.com/maggiepint/fantasygithub",
+            "homepage": null,
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 7,
+            "forks": 1,
+            "open_issues": 7,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/8"
+          },
+          "html": {
+            "href": "https://github.com/maggiepint/fantasygithub/pull/8"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/issues/8"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/issues/8/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/8/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/8/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/cb4b8607ca7eeee8b90135691a01b7dd123f1bef"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 7,
+        "deletions": 0,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2016-10-22T02:08:09Z"
+  },
+  {
+    "id": "4749830939",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "ref": "rules/charter",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-10-22T02:07:43Z"
+  },
+  {
+    "id": "4749824780",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 7,
+      "pull_request": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/7",
+        "id": 90466511,
+        "html_url": "https://github.com/maggiepint/fantasygithub/pull/7",
+        "diff_url": "https://github.com/maggiepint/fantasygithub/pull/7.diff",
+        "patch_url": "https://github.com/maggiepint/fantasygithub/pull/7.patch",
+        "issue_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/7",
+        "number": 7,
+        "state": "open",
+        "locked": false,
+        "title": "Add rule for building teams from projects, not people.",
+        "user": {
+          "login": "topfunky",
+          "id": 26,
+          "avatar_url": "https://avatars.githubusercontent.com/u/26?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/topfunky",
+          "html_url": "https://github.com/topfunky",
+          "followers_url": "https://api.github.com/users/topfunky/followers",
+          "following_url": "https://api.github.com/users/topfunky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/topfunky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/topfunky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/topfunky/subscriptions",
+          "organizations_url": "https://api.github.com/users/topfunky/orgs",
+          "repos_url": "https://api.github.com/users/topfunky/repos",
+          "events_url": "https://api.github.com/users/topfunky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/topfunky/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "This simple rule asks that managers build teams by drafting projects (such as `rails/rails`) instead of individual developers.",
+        "created_at": "2016-10-22T02:03:16Z",
+        "updated_at": "2016-10-22T02:03:16Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "c55e2a5fe5ff400e8a1f955a82a331f83b100b24",
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/7/commits",
+        "review_comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/7/comments",
+        "review_comment_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/7/comments",
+        "statuses_url": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/36b0f64191d32173f95d3de67fee6419b66b39c6",
+        "head": {
+          "label": "maggiepint:rules/by-project",
+          "ref": "rules/by-project",
+          "sha": "36b0f64191d32173f95d3de67fee6419b66b39c6",
+          "user": {
+            "login": "maggiepint",
+            "id": 6054610,
+            "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/maggiepint",
+            "html_url": "https://github.com/maggiepint",
+            "followers_url": "https://api.github.com/users/maggiepint/followers",
+            "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+            "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+            "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+            "repos_url": "https://api.github.com/users/maggiepint/repos",
+            "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 71367459,
+            "name": "fantasygithub",
+            "full_name": "maggiepint/fantasygithub",
+            "owner": {
+              "login": "maggiepint",
+              "id": 6054610,
+              "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/maggiepint",
+              "html_url": "https://github.com/maggiepint",
+              "followers_url": "https://api.github.com/users/maggiepint/followers",
+              "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+              "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+              "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+              "repos_url": "https://api.github.com/users/maggiepint/repos",
+              "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/maggiepint/fantasygithub",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/maggiepint/fantasygithub",
+            "forks_url": "https://api.github.com/repos/maggiepint/fantasygithub/forks",
+            "keys_url": "https://api.github.com/repos/maggiepint/fantasygithub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/maggiepint/fantasygithub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/maggiepint/fantasygithub/teams",
+            "hooks_url": "https://api.github.com/repos/maggiepint/fantasygithub/hooks",
+            "issue_events_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/maggiepint/fantasygithub/events",
+            "assignees_url": "https://api.github.com/repos/maggiepint/fantasygithub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/maggiepint/fantasygithub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/tags",
+            "blobs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/maggiepint/fantasygithub/languages",
+            "stargazers_url": "https://api.github.com/repos/maggiepint/fantasygithub/stargazers",
+            "contributors_url": "https://api.github.com/repos/maggiepint/fantasygithub/contributors",
+            "subscribers_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscribers",
+            "subscription_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscription",
+            "commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/maggiepint/fantasygithub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/maggiepint/fantasygithub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/maggiepint/fantasygithub/merges",
+            "archive_url": "https://api.github.com/repos/maggiepint/fantasygithub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/maggiepint/fantasygithub/downloads",
+            "issues_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/maggiepint/fantasygithub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/maggiepint/fantasygithub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/maggiepint/fantasygithub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/maggiepint/fantasygithub/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/maggiepint/fantasygithub/deployments",
+            "created_at": "2016-10-19T14:46:05Z",
+            "updated_at": "2016-10-19T23:18:42Z",
+            "pushed_at": "2016-10-22T02:03:16Z",
+            "git_url": "git://github.com/maggiepint/fantasygithub.git",
+            "ssh_url": "git@github.com:maggiepint/fantasygithub.git",
+            "clone_url": "https://github.com/maggiepint/fantasygithub.git",
+            "svn_url": "https://github.com/maggiepint/fantasygithub",
+            "homepage": null,
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 6,
+            "forks": 1,
+            "open_issues": 6,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "maggiepint:master",
+          "ref": "master",
+          "sha": "f39e2995dc09c17248ae7270f59d87afa05cd707",
+          "user": {
+            "login": "maggiepint",
+            "id": 6054610,
+            "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/maggiepint",
+            "html_url": "https://github.com/maggiepint",
+            "followers_url": "https://api.github.com/users/maggiepint/followers",
+            "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+            "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+            "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+            "repos_url": "https://api.github.com/users/maggiepint/repos",
+            "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 71367459,
+            "name": "fantasygithub",
+            "full_name": "maggiepint/fantasygithub",
+            "owner": {
+              "login": "maggiepint",
+              "id": 6054610,
+              "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/maggiepint",
+              "html_url": "https://github.com/maggiepint",
+              "followers_url": "https://api.github.com/users/maggiepint/followers",
+              "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+              "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+              "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+              "repos_url": "https://api.github.com/users/maggiepint/repos",
+              "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/maggiepint/fantasygithub",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/maggiepint/fantasygithub",
+            "forks_url": "https://api.github.com/repos/maggiepint/fantasygithub/forks",
+            "keys_url": "https://api.github.com/repos/maggiepint/fantasygithub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/maggiepint/fantasygithub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/maggiepint/fantasygithub/teams",
+            "hooks_url": "https://api.github.com/repos/maggiepint/fantasygithub/hooks",
+            "issue_events_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/maggiepint/fantasygithub/events",
+            "assignees_url": "https://api.github.com/repos/maggiepint/fantasygithub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/maggiepint/fantasygithub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/tags",
+            "blobs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/maggiepint/fantasygithub/languages",
+            "stargazers_url": "https://api.github.com/repos/maggiepint/fantasygithub/stargazers",
+            "contributors_url": "https://api.github.com/repos/maggiepint/fantasygithub/contributors",
+            "subscribers_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscribers",
+            "subscription_url": "https://api.github.com/repos/maggiepint/fantasygithub/subscription",
+            "commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/maggiepint/fantasygithub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/maggiepint/fantasygithub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/maggiepint/fantasygithub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/maggiepint/fantasygithub/merges",
+            "archive_url": "https://api.github.com/repos/maggiepint/fantasygithub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/maggiepint/fantasygithub/downloads",
+            "issues_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/maggiepint/fantasygithub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/maggiepint/fantasygithub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/maggiepint/fantasygithub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/maggiepint/fantasygithub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/maggiepint/fantasygithub/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/maggiepint/fantasygithub/deployments",
+            "created_at": "2016-10-19T14:46:05Z",
+            "updated_at": "2016-10-19T23:18:42Z",
+            "pushed_at": "2016-10-22T02:03:16Z",
+            "git_url": "git://github.com/maggiepint/fantasygithub.git",
+            "ssh_url": "git@github.com:maggiepint/fantasygithub.git",
+            "clone_url": "https://github.com/maggiepint/fantasygithub.git",
+            "svn_url": "https://github.com/maggiepint/fantasygithub",
+            "homepage": null,
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 1,
+            "mirror_url": null,
+            "open_issues_count": 6,
+            "forks": 1,
+            "open_issues": 6,
+            "watchers": 1,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/7"
+          },
+          "html": {
+            "href": "https://github.com/maggiepint/fantasygithub/pull/7"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/issues/7"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/issues/7/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/7/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/pulls/7/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/maggiepint/fantasygithub/statuses/36b0f64191d32173f95d3de67fee6419b66b39c6"
+          }
+        },
+        "merged": false,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 5,
+        "deletions": 0,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2016-10-22T02:03:16Z"
+  },
+  {
+    "id": "4749823363",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "ref": "rules/by-project",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-10-22T02:02:14Z"
+  },
+  {
+    "id": "4738388617",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/4",
+        "repository_url": "https://api.github.com/repos/maggiepint/fantasygithub",
+        "labels_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/4/labels{/name}",
+        "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/4/comments",
+        "events_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/4/events",
+        "html_url": "https://github.com/maggiepint/fantasygithub/issues/4",
+        "id": 183988936,
+        "number": 4,
+        "title": "Head to Head vs Points",
+        "user": {
+          "login": "maggiepint",
+          "id": 6054610,
+          "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/maggiepint",
+          "html_url": "https://github.com/maggiepint",
+          "followers_url": "https://api.github.com/users/maggiepint/followers",
+          "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+          "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+          "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+          "repos_url": "https://api.github.com/users/maggiepint/repos",
+          "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2016-10-19T15:06:12Z",
+        "updated_at": "2016-10-20T03:57:05Z",
+        "closed_at": null,
+        "body": "Is this done baseball style where you track statistical categories?\r\nis this football style where each player accrues points?"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/comments/255003183",
+        "html_url": "https://github.com/maggiepint/fantasygithub/issues/4#issuecomment-255003183",
+        "issue_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/4",
+        "id": 255003183,
+        "user": {
+          "login": "topfunky",
+          "id": 26,
+          "avatar_url": "https://avatars.githubusercontent.com/u/26?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/topfunky",
+          "html_url": "https://github.com/topfunky",
+          "followers_url": "https://api.github.com/users/topfunky/followers",
+          "following_url": "https://api.github.com/users/topfunky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/topfunky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/topfunky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/topfunky/subscriptions",
+          "organizations_url": "https://api.github.com/users/topfunky/orgs",
+          "repos_url": "https://api.github.com/users/topfunky/repos",
+          "events_url": "https://api.github.com/users/topfunky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/topfunky/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-10-20T03:57:05Z",
+        "updated_at": "2016-10-20T03:57:05Z",
+        "body": "I need to familiarize myself with how fantasy leagues work, but isn't it often the case that in a manager-v-manager setup, one manager would compete against another, and the winner for the week would add that win to their record? Then we start the points over again from scratch with another manager-v-manager and another week.\r\n\r\nOr is that not how it works?"
+      }
+    },
+    "public": true,
+    "created_at": "2016-10-20T03:57:05Z"
+  },
+  {
+    "id": "4738383065",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/3",
+        "repository_url": "https://api.github.com/repos/maggiepint/fantasygithub",
+        "labels_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/3/labels{/name}",
+        "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/3/comments",
+        "events_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/3/events",
+        "html_url": "https://github.com/maggiepint/fantasygithub/issues/3",
+        "id": 183988583,
+        "number": 3,
+        "title": "Positions",
+        "user": {
+          "login": "maggiepint",
+          "id": 6054610,
+          "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/maggiepint",
+          "html_url": "https://github.com/maggiepint",
+          "followers_url": "https://api.github.com/users/maggiepint/followers",
+          "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+          "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+          "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+          "repos_url": "https://api.github.com/users/maggiepint/repos",
+          "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2016-10-19T15:05:01Z",
+        "updated_at": "2016-10-20T03:55:19Z",
+        "closed_at": null,
+        "body": "Do we want to have positions? What are the positions?\r\n\r\nThe best idea I have is that positions are programming languages. If you draft a player for JavaScript, than only commits that include JavaScript changes are included in their commit stats."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/comments/255003001",
+        "html_url": "https://github.com/maggiepint/fantasygithub/issues/3#issuecomment-255003001",
+        "issue_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/3",
+        "id": 255003001,
+        "user": {
+          "login": "topfunky",
+          "id": 26,
+          "avatar_url": "https://avatars.githubusercontent.com/u/26?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/topfunky",
+          "html_url": "https://github.com/topfunky",
+          "followers_url": "https://api.github.com/users/topfunky/followers",
+          "following_url": "https://api.github.com/users/topfunky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/topfunky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/topfunky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/topfunky/subscriptions",
+          "organizations_url": "https://api.github.com/users/topfunky/orgs",
+          "repos_url": "https://api.github.com/users/topfunky/repos",
+          "events_url": "https://api.github.com/users/topfunky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/topfunky/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-10-20T03:55:19Z",
+        "updated_at": "2016-10-20T03:55:19Z",
+        "body": "Could it be that, for a specific week, a manager selects players and assigns them to positions (Committer, Pull Request Originator, Pull Request Merger) and accrues points based on what the player does that week?\r\n\r\nA manager could then shift a player to a different position for a subsequent week."
+      }
+    },
+    "public": true,
+    "created_at": "2016-10-20T03:55:19Z"
+  },
+  {
+    "id": "4738376192",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/2",
+        "repository_url": "https://api.github.com/repos/maggiepint/fantasygithub",
+        "labels_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/2/labels{/name}",
+        "comments_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/2/comments",
+        "events_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/2/events",
+        "html_url": "https://github.com/maggiepint/fantasygithub/issues/2",
+        "id": 183988358,
+        "number": 2,
+        "title": "Player pool and draft",
+        "user": {
+          "login": "maggiepint",
+          "id": 6054610,
+          "avatar_url": "https://avatars.githubusercontent.com/u/6054610?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/maggiepint",
+          "html_url": "https://github.com/maggiepint",
+          "followers_url": "https://api.github.com/users/maggiepint/followers",
+          "following_url": "https://api.github.com/users/maggiepint/following{/other_user}",
+          "gists_url": "https://api.github.com/users/maggiepint/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/maggiepint/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/maggiepint/subscriptions",
+          "organizations_url": "https://api.github.com/users/maggiepint/orgs",
+          "repos_url": "https://api.github.com/users/maggiepint/repos",
+          "events_url": "https://api.github.com/users/maggiepint/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/maggiepint/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2016-10-19T15:04:16Z",
+        "updated_at": "2016-10-20T03:53:16Z",
+        "closed_at": null,
+        "body": "How do we define a player pool? How do people efficiently draft?"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/comments/255002761",
+        "html_url": "https://github.com/maggiepint/fantasygithub/issues/2#issuecomment-255002761",
+        "issue_url": "https://api.github.com/repos/maggiepint/fantasygithub/issues/2",
+        "id": 255002761,
+        "user": {
+          "login": "topfunky",
+          "id": 26,
+          "avatar_url": "https://avatars.githubusercontent.com/u/26?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/topfunky",
+          "html_url": "https://github.com/topfunky",
+          "followers_url": "https://api.github.com/users/topfunky/followers",
+          "following_url": "https://api.github.com/users/topfunky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/topfunky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/topfunky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/topfunky/subscriptions",
+          "organizations_url": "https://api.github.com/users/topfunky/orgs",
+          "repos_url": "https://api.github.com/users/topfunky/repos",
+          "events_url": "https://api.github.com/users/topfunky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/topfunky/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-10-20T03:53:16Z",
+        "updated_at": "2016-10-20T03:53:16Z",
+        "body": "It could be easy for the league to degrade into yet-another-stress on the backs of open source committers.\r\n\r\nIn order to keep that from happening, I think that developers should have to opt-in to being included in a league.\r\n\r\nAlso, I think we should consider a scenario where only projects are drafted, not people. Then it would reduce the pressure on individuals."
+      }
+    },
+    "public": true,
+    "created_at": "2016-10-20T03:53:18Z"
+  },
+  {
+    "id": "4738366190",
+    "type": "PushEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 71367459,
+      "name": "maggiepint/fantasygithub",
+      "url": "https://api.github.com/repos/maggiepint/fantasygithub"
+    },
+    "payload": {
+      "push_id": 1358322380,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "f39e2995dc09c17248ae7270f59d87afa05cd707",
+      "before": "60ffc11102188268d2c8cdd611b8086bf093ee59",
+      "commits": [
+        {
+          "sha": "f39e2995dc09c17248ae7270f59d87afa05cd707",
+          "author": {
+            "email": "boss@topfunky.com",
+            "name": "Geoffrey Grosenbach"
+          },
+          "message": "Fix typo\n\nCorrect spelling of `Leagues`",
+          "distinct": true,
+          "url": "https://api.github.com/repos/maggiepint/fantasygithub/commits/f39e2995dc09c17248ae7270f59d87afa05cd707"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-10-20T03:50:12Z"
+  },
+  {
+    "id": "4674837137",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 13359462,
+      "name": "mxw/vim-jsx",
+      "url": "https://api.github.com/repos/mxw/vim-jsx"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-10-07T03:52:47Z"
+  },
+  {
+    "id": "4674837045",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 293477,
+      "name": "pangloss/vim-javascript",
+      "url": "https://api.github.com/repos/pangloss/vim-javascript"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-10-07T03:52:44Z"
+  },
+  {
+    "id": "4674803159",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 63537249,
+      "name": "facebookincubator/create-react-app",
+      "url": "https://api.github.com/repos/facebookincubator/create-react-app"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-10-07T03:38:11Z",
+    "org": {
+      "id": 19538647,
+      "login": "facebookincubator",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebookincubator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19538647?"
+    }
+  },
+  {
+    "id": "4606833913",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 68860702,
+      "name": "topfunky/blog-comments",
+      "url": "https://api.github.com/repos/topfunky/blog-comments"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/topfunky/blog-comments/issues/1",
+        "repository_url": "https://api.github.com/repos/topfunky/blog-comments",
+        "labels_url": "https://api.github.com/repos/topfunky/blog-comments/issues/1/labels{/name}",
+        "comments_url": "https://api.github.com/repos/topfunky/blog-comments/issues/1/comments",
+        "events_url": "https://api.github.com/repos/topfunky/blog-comments/issues/1/events",
+        "html_url": "https://github.com/topfunky/blog-comments/issues/1",
+        "id": 178796545,
+        "number": 1,
+        "title": "Think Like a Software Developer",
+        "user": {
+          "login": "topfunky",
+          "id": 26,
+          "avatar_url": "https://avatars.githubusercontent.com/u/26?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/topfunky",
+          "html_url": "https://github.com/topfunky",
+          "followers_url": "https://api.github.com/users/topfunky/followers",
+          "following_url": "https://api.github.com/users/topfunky/following{/other_user}",
+          "gists_url": "https://api.github.com/users/topfunky/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/topfunky/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/topfunky/subscriptions",
+          "organizations_url": "https://api.github.com/users/topfunky/orgs",
+          "repos_url": "https://api.github.com/users/topfunky/repos",
+          "events_url": "https://api.github.com/users/topfunky/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/topfunky/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2016-09-23T06:36:43Z",
+        "updated_at": "2016-09-23T06:36:43Z",
+        "closed_at": null,
+        "body": "Comments on https://www.topfunky.com/2016/think-like-a-developer/"
+      }
+    },
+    "public": true,
+    "created_at": "2016-09-23T06:36:44Z"
+  },
+  {
+    "id": "4606021383",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 12512833,
+      "name": "philipwalton/solved-by-flexbox",
+      "url": "https://api.github.com/repos/philipwalton/solved-by-flexbox"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-09-23T01:07:54Z"
+  },
+  {
+    "id": "4599179017",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 68860702,
+      "name": "topfunky/blog-comments",
+      "url": "https://api.github.com/repos/topfunky/blog-comments"
+    },
+    "payload": {
+      "ref": "master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Issues and comments related to the blog at https://www.topfunky.com",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-09-21T21:52:54Z"
+  },
+  {
+    "id": "4599179008",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 26,
+      "login": "topfunky",
+      "display_login": "topfunky",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/topfunky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26?"
+    },
+    "repo": {
+      "id": 68860702,
+      "name": "topfunky/blog-comments",
+      "url": "https://api.github.com/repos/topfunky/blog-comments"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "master",
+      "description": "Issues and comments related to the blog at https://www.topfunky.com",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-09-21T21:52:53Z"
+  }
+]
