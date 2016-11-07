@@ -11,6 +11,22 @@ Fantasy GitHub is a brand new idea. As such, we have a very basic plan moving fo
 * Start a test league
 * ITERATE!
 
-
 # Rules
 If you are interested in contributing to the rules of Fantasy GitHub, feel free to make a pull request against the rules files.
+
+# Testing Instructions
+TODO: Step-by-step instructions for how to test the code
+
+1. Install prerequisites (ex: Git Bash, NPM, Node)
+2. Clone code
+3. Run code
+
+Things to try:
+* Foo 
+* Bar
+* Baz
+
+Not yet implmented:
+* Qux
+* Quux
+* Corge
