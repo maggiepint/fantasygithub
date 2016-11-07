@@ -1,2 +1,163 @@
+
+* { font-size: 1em; }
 body {
+  color: #ccc;
+  background-color: #404040;
+  font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
 }
+
+/* Scores */
+
+.score {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0.4em;
+  color: #ffcc00; /* yellow */
+}
+.score.opponent {
+  color: #339999; /* turqoise */
+}
+
+.score .manager {
+  font-size: 0.2em;
+  font-weight: bold;
+  color: #aaa;
+}
+
+/* Event Tables  */
+
+img.avatar {
+  width: 3em;
+  border-radius: 2em;
+}
+
+h2 {
+  border-bottom: 1px solid #555;
+}
+
+table {
+  width: 100%;
+  font-size: 0.8em;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  line-height: 2em;
+}
+th.last, td.last {
+  text-align: right;
+}
+td.last {
+  font-family: monospace;
+  font-size: 1.3em;
+}
+tr.even {
+  background-color: #3a3a3a;
+}
+
+
+/* Flexbox Grid  */
+
+.Grid {
+  display: flex;
+}
+
+.Grid-cell {
+  flex: 1;
+}
+
+/* With gutters */
+.Grid--gutters {
+  margin: -1em 0 0 -1em;
+}
+.Grid--gutters > .Grid-cell {
+  padding: 1em 0 0 1em;
+}
+
+/* Alignment per row */
+.Grid--top {
+  align-items: flex-start;
+}
+.Grid--bottom {
+  align-items: flex-end;
+}
+.Grid--center {
+  align-items: center;
+}
+
+/* Alignment per cell */
+.Grid-cell--top {
+  align-self: flex-start;
+}
+.Grid-cell--bottom {
+  align-self: flex-end;
+}
+.Grid-cell--center {
+  align-self: center;
+}
+
+/* Base classes for all media */
+.Grid--fit > .Grid-cell {
+  flex: 1;
+}
+.Grid--full > .Grid-cell {
+  flex: 0 0 100%;
+}
+.Grid--1of2 > .Grid-cell {
+  flex: 0 0 50%
+}
+.Grid--1of3 > .Grid-cell {
+  flex: 0 0 33.3333%
+}
+.Grid--1of4 > .Grid-cell {
+  flex: 0 0 25%
+}
+
+/* Small to medium screens */
+@media (min-width: 24em) {
+  .small-Grid--fit > .Grid-cell {
+    flex: 1;
+  }
+  .small-Grid--full > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  .small-Grid--1of2 > .Grid-cell {
+    flex: 0 0 50%
+  }
+  .small-Grid--1of3 > .Grid-cell {
+    flex: 0 0 33.3333%
+  }
+  .small-Grid--1of4 > .Grid-cell {
+    flex: 0 0 25%
+  }
+}
+
+/* Large screens */
+@media (min-width: 48em) {
+  .large-Grid--fit > .Grid-cell {
+    flex: 1;
+  }
+  .large-Grid--full > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  .large-Grid--1of2 > .Grid-cell {
+    flex: 0 0 50%
+  }
+  .large-Grid--1of3 > .Grid-cell {
+    flex: 0 0 33.3333%
+  }
+  .large-Grid--1of4 > .Grid-cell {
+    flex: 0 0 25%
+  }
+}
+
+
+/* Colors  */
+
+.Constant { color: #339999; }
+.LineNr { color: #ddeeff; background-color: #222222; padding-bottom: 1px; }
+.Identifier { color: #ffcc00; }
+.Statement { color: #ff6600; }
+.Comment { color: #9933cc; font-style: italic; }
+.Type { color: #aaaa77; }
+

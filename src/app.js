@@ -31,6 +31,10 @@ app.post('/', function (req, res) {
 
 });
 
+app.get('/styleguide', function (req, res) {
+  res.render('styleguide', { title: 'Fantasy GitHub | Styleguide'})
+});
+
 app.listen(3000, function () {
   console.log('Example app listening on http://localhost:3000')
 });
