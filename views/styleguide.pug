@@ -2,27 +2,179 @@ html
   head
     link(href="/styles/styles.css" media="all" rel="stylesheet")
   body
-    .Grid
-      .Grid-cell.Grid--1of4
-        h1=title
-        ul
-          li Login
-          li Account
-          li Manage
-      .Grid-cell.Grid--1of2
-        .Grid
-          .Grid-cell
-            div.score 
-              = 34
-              div.manager topfunky
-          .Grid-cell
-            div.score.opponent
-              = 56
-              div.manager maggiepint
-        div
+    .content
+      .Grid--gutters
+        .Grid-cell.Grid--1of4
+          h1=title
+          ul
+            li Login
+            li Account
+            li Manage
+          h2 Table
+          table
+            tr
+              th Event
+              th Time
+              th.last Score
+            tr
+              td CommitEvent
+              td Jan 5 01:34
+              td.last 23.2
+            tr.even
+              td CommitEvent
+              td Jan 5 01:34
+              td.last 23.2
+        .Grid-cell.Grid--1of2
+          .Grid
+            .Grid-cell
+              div.score
+                = 34
+                div.caption topfunky
+            .Grid-cell--center
+              div.clock
+                = "3d 5:45"
+            .Grid-cell
+              div.score.opponent
+                = 56
+                div.caption maggiepint
+          div
+            div This is some text inside of a div block.
+            img.avatar(src="https://avatars.githubusercontent.com/u/26?v=3")
+            h2 My Team
+            table
+              tr
+                th Event
+                th Time
+                th.last Score
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr.even
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr.even
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr.even
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+
+            img.avatar(src="https://avatars.githubusercontent.com/u/6054610?v=3")
+            h2 Opposing Team
+            table
+              tr
+                th Event
+                th Time
+                th.last Score
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr.even
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr.even
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr.even
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+              tr
+                td CommitEvent
+                td Jan 5 01:34
+                td.last 23.2
+
+        .Grid-cell.Grid--1of4
           div This is some text inside of a div block.
-          img.avatar(src="https://avatars.githubusercontent.com/u/26?v=3")
-          h2 My Team
+          h2 League Leaderboard
+          table.box-scores
+            tr
+              th.first Manager
+              th FIP
+              th BA
+              th OBP
+              th +/-
+              th.last Score
+            tr
+              td.first topfunky
+              td 0.2
+              td 155
+              td 7,108
+              td 0.89
+              td.last 23.2
+            tr.even
+              td.first maggiepint
+              td 0.2
+              td 155
+              td 7,108
+              td 0.89
+              td.last 23.2
+            tr
+              td.first krustytheklown
+              td 0.2
+              td 155
+              td 7,108
+              td 0.89
+              td.last 23.2
+            tr.even
+              td.first bartj
+              td 0.2
+              td 155
+              td 7,108
+              td 0.89
+              td.last 23.2
+            tr
+              td.first lisa
+              td 0.2
+              td 155
+              td 7,108
+              td 0.89
+              td.last 23.2
+            tr.even
+              td.first itchy
+              td 0.2
+              td 155
+              td 7,108
+              td 0.89
+              td.last 23.2
+            tr
+              td.first scratchy
+              td 0.2
+              td 155
+              td 7,108
+              td 0.89
+              td.last 23.2
+
+        .Grid-cell
+          div This is some text inside of a div block.
+          h2 Global Scoreboard
           table
             tr
               th Event
@@ -36,66 +188,14 @@ html
               td CommitEvent
               td Jan 5 01:34
               td.last 23.2
-            tr
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr.even
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr.even
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
 
-          img.avatar(src="https://avatars.githubusercontent.com/u/6054610?v=3")
-          h2 Opposing Team
-          table
-            tr
-              th Event
-              th Time
-              th.last Score
-            tr
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr.even
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr.even
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr.even
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-            tr
-              td CommitEvent
-              td Jan 5 01:34
-              td.last 23.2
-
-      
-      .Grid-cell.Grid--1of4
-        div This is some text inside of a div block.
-      .Grid-cell
-        div This is some text inside of a div block.
-
+    .footer
+      .Grid
+        .Grid-cell.Grid--1of4
+          p About
+        .Grid-cell.Grid--1of4
+          p About
+        .Grid-cell.Grid--1of4
+          p About
+        .Grid-cell.Grid--1of4
+          p About

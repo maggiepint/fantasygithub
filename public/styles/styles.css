@@ -4,11 +4,21 @@ body {
   color: #ccc;
   background-color: #404040;
   font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/* Content  */
+.content {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Scores */
 
-.score {
+.score, .clock {
   text-align: center;
   font-size: 3em;
   margin-bottom: 0.4em;
@@ -17,8 +27,16 @@ body {
 .score.opponent {
   color: #339999; /* turqoise */
 }
+.clock {
+  color: #aaaa77;
+  font-size: 1.5em;
+  font-family: "Anonymous Pro", monospace;
+  padding-bottom: 1em;
+}
 
-.score .manager {
+/* Colors: ffcc00 yellow, 339999 turquoise, ff6600 peach, 9933cc purple, 6dfd30 bright green, aaaa77 olive green, ddeeff duck egg blue, 222222 charcoal */
+
+.score .caption {
   font-size: 0.2em;
   font-weight: bold;
   color: #aaa;
@@ -35,6 +53,7 @@ h2 {
   border-bottom: 1px solid #555;
 }
 
+/* Table  */
 table {
   width: 100%;
   font-size: 0.8em;
@@ -48,15 +67,40 @@ th.last, td.last {
   text-align: right;
 }
 td.last {
-  font-family: monospace;
-  font-size: 1.3em;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 1.1em;
 }
 tr.even {
   background-color: #3a3a3a;
 }
 
+table.box-scores tr th.first, table.box-scores tr td.first {
+  font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
+  font-size: 1em;
+  text-align: left;
+  padding-left: 0;
+}
+table.box-scores tr th {
+  text-align: center;
+}
+table.box-scores tr td {
+  font-family: "Anonymous Pro", monospace;
+  text-align: right;
+  padding-left: 0.5em;
+  font-size: 1.1em;
+}
+
+/* Footer  */
+
+.footer {
+  background-color: #3a3a3a;
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
 /* Flexbox Grid  */
+/* https://philipwalton.github.io/solved-by-flexbox/ */
 
 .Grid {
   display: flex;
@@ -67,7 +111,9 @@ tr.even {
 }
 
 /* With gutters */
+
 .Grid--gutters {
+  display: flex;
   margin: -1em 0 0 -1em;
 }
 .Grid--gutters > .Grid-cell {
@@ -150,14 +196,4 @@ tr.even {
     flex: 0 0 25%
   }
 }
-
-
-/* Colors  */
-
-.Constant { color: #339999; }
-.LineNr { color: #ddeeff; background-color: #222222; padding-bottom: 1px; }
-.Identifier { color: #ffcc00; }
-.Statement { color: #ff6600; }
-.Comment { color: #9933cc; font-style: italic; }
-.Type { color: #aaaa77; }
 
